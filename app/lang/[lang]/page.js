@@ -72,7 +72,7 @@ const Page = async ({ params }) => {
       <Location translations={translations} />
       <img
         src="/images/Screenshot 2024-12-09 at 08.22.02.png"
-        className=" w-full h-[60px] mt-20"
+        className=" w-full h-[60px] object-cover mt-20"
       />
       <section className="text-white md:px-28 px-4 pt-20  relative">
         <h1 className="text-[28px]">{translations.explore.explore}</h1>

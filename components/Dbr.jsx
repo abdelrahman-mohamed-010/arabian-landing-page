@@ -5,7 +5,7 @@ const Dbr = ({ translations }) => {
     <div className=" relative">
       <img
         src="/images/Screenshot 2024-12-09 at 08.22.02.png"
-        className="w-full h-[60px]  absolute -top-24"
+        className="w-full h-[60px] object-cover absolute -top-24"
         alt="Screenshot"
       />
       <section className="text-white px-4 lg:px-28 pb-20  overflow-hidden mt-16">
@@ -46,7 +46,7 @@ const Dbr = ({ translations }) => {
       </section>
       <img
         src="/images/Screenshot 2024-12-09 at 08.22.02.png"
-        className="w-full h-[60px]  relative"
+        className="w-full h-[60px] object-cover  relative"
         alt="Screenshot"
       />
     </div>

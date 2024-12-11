@@ -13,12 +13,6 @@ const Hero = ({ lang }) => {
         height={1080}
         className="w-full h-auto z-10"
       />
-      {/* <Link
-        href={`/lang/${lang == "en" ? "ar" : "en"}`}
-        className="absolute top-32 left-6  z-30 object-contain text-white font-semibold bg-blue-500 rounded-lg p-3 px-5 w-fit cursor-pointer"
-      >
-        {lang == "en" ? "العربيه" : "English"}
-      </Link> */}
       <Link
         href={`/lang/${lang == "en" ? "ar" : "en"}`}
         className="absolute top-12 sm:top-20 md:top-32 lg:top-32 left-4 sm:left-6 z-30 

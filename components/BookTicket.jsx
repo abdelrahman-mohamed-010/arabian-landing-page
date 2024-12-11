@@ -5,7 +5,7 @@ const BookTicket = ({ translations }) => {
     <div className="relative">
       <img
         src="/images/Screenshot 2024-12-09 at 08.22.02.png"
-        className="w-full h-[60px]  relative"
+        className="w-full h-[60px] object-cover relative"
         alt="Screenshot"
       />
       <section className="text-white bg-[#544229cb] px-4 md:px-28 pt-10 md:pt-20 pb-10 md:pb-16 z-20 relative -mt-7">
@@ -90,3 +90,4 @@ const BookTicket = ({ translations }) => {
 };
 
 export default BookTicket;
+
