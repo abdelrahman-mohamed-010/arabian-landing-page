@@ -46,39 +46,39 @@ const BookTicket = ({ translations }) => {
         </div>
         <div className=" mt-28">
           <h1 className=" text-2xl mb-6">Book Your Activities</h1>
-          <div className=" flex gap-4 flex-wrap">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
             <div>
               <img
                 src="/images/buggies.png"
-                className={`w-full h-[200px] cursor-pointer md:h-[299px] object-cover rounded-md `}
+                className="w-[260px]  md:h-[360px] object-cover rounded-md cursor-pointer"
                 alt="Screenshot"
               />
             </div>
             <div>
               <img
                 src="/images/dune.png"
-                className={`w-full h-[200px] cursor-pointer md:h-[299px] object-cover rounded-md `}
+                className="w-[260px]  md:h-[360px] object-cover rounded-md cursor-pointer"
                 alt="Screenshot"
               />
-            </div>{" "}
+            </div>
             <div>
               <img
                 src="/images/archarab.png"
-                className={`w-full h-[200px] cursor-pointer md:h-[299px] object-cover rounded-md `}
+                className="w-[260px]  md:h-[360px] object-cover rounded-md cursor-pointer"
                 alt="Screenshot"
               />
             </div>
             <div>
               <img
                 src="/images/archman.png"
-                className={`w-full h-[200px] cursor-pointer  md:h-[299px] object-cover rounded-md `}
+                className="w-[260px]  md:h-[360px] object-cover rounded-md cursor-pointer"
                 alt="Screenshot"
               />
-            </div>{" "}
+            </div>
             <div>
               <img
                 src="/images/archwomen.png"
-                className={`w-full h-[200px] cursor-pointer md:h-[299px] object-cover rounded-md `}
+                className="w-[260px]  md:h-[360px] object-cover rounded-md cursor-pointer"
                 alt="Screenshot"
               />
             </div>
@@ -90,4 +90,3 @@ const BookTicket = ({ translations }) => {
 };
 
 export default BookTicket;
-

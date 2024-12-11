@@ -43,10 +43,10 @@ const Heritage = ({ translations }) => {
         </div>
         <div className="flex flex-col md:flex-row items-start gap-6 md:gap-20 mt-10 md:mt-36">
           <div className="text-[#FFFFFF] flex flex-col justify-end w-full order-2 md:order-1">
-            <h1 className="text-2xl md:text-3xl mb-4 md:mb-6 text-right w-full">
+            <h1 className="text-2xl md:text-3xl mb-4 md:mb-6  w-full">
               {translations.heritage.title2}
             </h1>
-            <p className="mb-6 md:mb-12 text-right">
+            <p className="mb-6 md:mb-12 ">
               {translations.heritage.description2}
             </p>
             <div className="w-full relative">

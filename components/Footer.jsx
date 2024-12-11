@@ -9,7 +9,7 @@ const Footer = ({ translations }) => {
         />
 
         {/* Icons */}
-        <div className="flex space-x-4 items-center">
+        <div className="flex space-x-6 items-center">
           <a
             href="https://www.facebook.com"
             target="_blank"
