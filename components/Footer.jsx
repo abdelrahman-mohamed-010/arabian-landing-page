@@ -17,7 +17,7 @@ const Footer = ({ translations }) => {
           >
             <img
               src="/images/face.png"
-              className="w-8 h-auto z-20 object-contain  max-sm:w-5 "
+              className="w-8 h-auto z-20 object-contain  max-sm:w-5  max-sm:ml-3 "
               alt="Facebook"
             />
           </a>
