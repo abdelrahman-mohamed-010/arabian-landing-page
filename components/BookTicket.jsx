@@ -45,7 +45,7 @@ const BookTicket = ({ translations }) => {
           </div>
         </div>
         <div className=" mt-28">
-          <h1 className=" text-2xl mb-6">Book Your Activities</h1>
+          <h1 className=" text-2xl mb-6"> {translations.activities.title}</h1>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-4">
             <div>
               <img

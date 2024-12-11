@@ -76,7 +76,7 @@ const Page = async ({ params }) => {
       />
       <section className="text-white md:px-24 px-4 pt-20  relative">
         <h1 className="text-[28px]">{translations.explore.explore}</h1>
-        <ScrollableSection items={dummyData} />
+        <ScrollableSection items={dummyData} translations={translations} />
       </section>
       <Adventure translations={translations} />
       <Heritage translations={translations} />
