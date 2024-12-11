@@ -75,7 +75,10 @@ const Location = ({ translations }) => {
             style={{ width: "100%" }}
           />
         </div>
-        <div className="w-[80%] md:w-[279px] h-[165px] md:h-[194px] z-20 p-5 pl-7 bg-[#242424] rounded-2xl max-sm:w-[220px]">
+        <div
+          dir="ltr"
+          className="w-[80%] md:w-[279px] h-[165px] md:h-[194px] z-20 p-5 pl-7 bg-[#242424] rounded-2xl max-sm:w-[220px]"
+        >
           <Clock3 className="w-12 h-12 mb-6" />
           <span className="block text-xl mb-1">{schedule.date} - </span>
           <span className="block text-xl">{schedule.time}</span>
