@@ -18,7 +18,7 @@ const Dbr = ({ translations }) => {
           <div className="relative w-full">
             <img
               src="/images/Artboard 14-8.png"
-              className="min-w-[200px] w-full  sm:min-w-[653.99px] h-[354px]  max-md:object-cover max-md:rounded-2xl "
+              className="min-w-[200px] w-full object-cover  sm:min-w-[653.99px] h-[384px]  max-md:object-cover max-md:rounded-2xl "
               alt="Adventure Image"
             />
             <img
@@ -29,7 +29,7 @@ const Dbr = ({ translations }) => {
           </div>
         </div>
 
-        <div className="flex  max-lg:hidden sm:flex-row justify-between gap-12 items-end -mt-16 lg:mt-0 relative">
+        <div className="flex  max-lg:hidden sm:flex-row justify-between gap-12 items-end -mt-16 lg:mt-12 relative">
           <img src="/images/arrow.png" className="w-full h-full" alt="Arrow" />
           <img
             src="/images/buggy.png"

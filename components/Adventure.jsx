@@ -22,7 +22,7 @@ const Adventure = ({ translations }) => {
         <div className="relative w-full gap-3">
           <img
             src="/images/Artboard 14-8.png"
-            className="min-w-[100px] w-full sm:min-w-[653.99px]  h-[354px]"
+            className="min-w-[100px] w-full sm:min-w-[653.99px]  h-[394px]"
             alt="Adventure Image"
           />
           <img

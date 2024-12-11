@@ -46,39 +46,39 @@ const BookTicket = ({ translations }) => {
         </div>
         <div className=" mt-28">
           <h1 className=" text-2xl mb-6">Book Your Activities</h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-4">
             <div>
               <img
                 src="/images/buggies.png"
-                className="w-[260px]  md:h-[360px] object-cover rounded-md cursor-pointer"
+                className="w-[260px]  md:h-[360px] h-[260px] max-md:w-[200px] object-cover rounded-md cursor-pointer"
                 alt="Screenshot"
               />
             </div>
             <div>
               <img
                 src="/images/dune.png"
-                className="w-[260px]  md:h-[360px] object-cover rounded-md cursor-pointer"
+                className="w-[260px]  md:h-[360px] h-[260px] max-md:w-[200px] object-cover rounded-md cursor-pointer"
                 alt="Screenshot"
               />
             </div>
             <div>
               <img
                 src="/images/archarab.png"
-                className="w-[260px]  md:h-[360px] object-cover rounded-md cursor-pointer"
+                className="w-[260px]  md:h-[360px] h-[260px] max-md:w-[200px] object-cover rounded-md cursor-pointer"
                 alt="Screenshot"
               />
             </div>
             <div>
               <img
                 src="/images/archman.png"
-                className="w-[260px]  md:h-[360px] object-cover rounded-md cursor-pointer"
+                className="w-[260px] md:h-[360px] h-[260px] max-md:w-[200px] object-cover rounded-md cursor-pointer"
                 alt="Screenshot"
               />
             </div>
             <div>
               <img
                 src="/images/archwomen.png"
-                className="w-[260px]  md:h-[360px] object-cover rounded-md cursor-pointer"
+                className="w-[260px] md:h-[360px] h-[260px] max-md:w-[200px] object-cover rounded-md cursor-pointer"
                 alt="Screenshot"
               />
             </div>
