@@ -8,7 +8,7 @@ const BookTicket = ({ translations }) => {
         className="w-full h-[60px]  relative"
         alt="Screenshot"
       />
-      <section className="text-white bg-[#D7B17B] px-4 md:px-28 pt-10 md:pt-20 pb-10 md:pb-16 z-20 relative -mt-7">
+      <section className="text-white bg-[#544229cb] px-4 md:px-28 pt-10 md:pt-20 pb-10 md:pb-16 z-20 relative -mt-7">
         <div>
           <h1 className=" text-2xl mb-6"> {translations.tickets.title}</h1>
           <div className=" flex gap-4 flex-wrap">

@@ -19,22 +19,53 @@ const Page = async ({ params }) => {
   const translations = lang === "ar" ? arLocales : enLocales;
 
   const dummyData = [
-    { id: 1, title: "Card 1", imgSrc: "/images/3.png" },
-    { id: 2, title: "Card 2", imgSrc: "/images/3.png" },
-    { id: 3, title: "Card 3", imgSrc: "/images/3.png" },
-    { id: 4, title: "Card 4", imgSrc: "/images/3.png" },
-    { id: 5, title: "Card 5", imgSrc: "/images/3.png" },
-    { id: 6, title: "Card 6", imgSrc: "/images/3.png" },
-    { id: 7, title: "Card 7", imgSrc: "/images/3.png" },
-    { id: 8, title: "Card 8", imgSrc: "/images/3.png" },
-    { id: 9, title: "Card 9", imgSrc: "/images/3.png" },
-    { id: 10, title: "Card 10", imgSrc: "/images/3.png" },
-    { id: 11, title: "Card 11", imgSrc: "/images/3.png" },
-    { id: 12, title: "Card 12", imgSrc: "/images/3.png" },
-    { id: 13, title: "Card 13", imgSrc: "/images/3.png" },
-    { id: 14, title: "Card 14", imgSrc: "/images/3.png" },
-    { id: 15, title: "Card 15", imgSrc: "/images/3.png" },
+    { id: 1, title: "Card 1", imgSrc: "/images/3.png", description: "Fresh" },
+    { id: 2, title: "Card 2", imgSrc: "/images/3.png", description: "Bold" },
+    { id: 3, title: "Card 3", imgSrc: "/images/3.png", description: "Bold" },
+    { id: 4, title: "Card 4", imgSrc: "/images/3.png", description: "Bold" },
+    { id: 5, title: "Card 5", imgSrc: "/images/3.png", description: "Bold" },
+    { id: 6, title: "Card 6", imgSrc: "/images/3.png", description: "Bold" },
+    {
+      id: 7,
+      title: "Card 7",
+      imgSrc: "/images/3.png",
+      description: "Bold",
+    },
+    { id: 8, title: "Card 8", imgSrc: "/images/3.png", description: "Unique" },
+    {
+      id: 9,
+      title: "Card 9",
+      imgSrc: "/images/3.png",
+      description: "Bold",
+    },
+    {
+      id: 10,
+      title: "Card 10",
+      imgSrc: "/images/3.png",
+      description: "Bold",
+    },
+    {
+      id: 11,
+      title: "Card 11",
+      imgSrc: "/images/3.png",
+      description: "Serene",
+    },
+    {
+      id: 12,
+      title: "Card 12",
+      imgSrc: "/images/3.png",
+      description: "Bold",
+    },
+    { id: 13, title: "Card 13", imgSrc: "/images/3.png", description: "Bold" },
+    {
+      id: 14,
+      title: "Card 14",
+      imgSrc: "/images/3.png",
+      description: "Playful",
+    },
+    { id: 15, title: "Card 15", imgSrc: "/images/3.png", description: "Bold" },
   ];
+
   return (
     <>
       <Hero lang={lang} />

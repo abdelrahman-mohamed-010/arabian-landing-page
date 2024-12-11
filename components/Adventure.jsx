@@ -13,27 +13,27 @@ const Adventure = ({ translations }) => {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row justify-between gap-12">
+      <div className="flex flex-col lg:flex-row justify-between  gap-12">
         <div className="w-full sm:w-1/2">
           <h1 className="text-3xl mb-12">{translations.adventure.title}</h1>
           <p className="text-xl">{translations.adventure.description}</p>
         </div>
 
-        <div className="relative w-full sm:w-1/2">
+        <div className="relative w-full gap-3">
           <img
             src="/images/Artboard 14-8.png"
-            className="min-w-[200px] sm:min-w-[653.99px] h-[354px]"
+            className="min-w-[100px] w-full sm:min-w-[653.99px]  h-[354px]"
             alt="Adventure Image"
           />
           <img
             src="/images/Rectangle 464 (1).png"
-            className="absolute -bottom-6 mr-1 w-full z-20 object-contain"
+            className="absolute -bottom-6 mr-1 w-full z-20 object-contain max-md:hidden"
             alt="Rectangle Overlay"
           />
         </div>
       </div>
 
-      <div className="flex max-lg:hidden sm:flex-row justify-between gap-12 items-end -mt-16 relative">
+      <div className="flex max-lg:hidden sm:flex-row justify-between gap-12 items-end -mt-16 lg:mt-0  relative">
         <img src="/images/samt.png" className="w-full h-full" alt="Samt" />
         <img src="/images/arrow.png" className="w-full h-full" alt="Arrow" />
         <img src="/images/buggy.png" className="w-full h-full" alt="Buggy" />

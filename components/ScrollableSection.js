@@ -42,13 +42,14 @@ const ScrollableSection = ({ items }) => {
         {items.map((card) => (
           <div
             key={card.id}
-            className="w-[150px] md:w-[223px] rounded-lg flex-shrink-0 relative cursor-pointer"
+            className="w-[150px]  md:w-[223px] rounded-lg flex-shrink-0 relative cursor-pointer"
           >
             <img
               src={card.imgSrc}
               alt={card.title}
-              className={`w-full h-[200px] md:h-[299px] object-cover rounded-md `}
+              className={`w-full relative h-[200px] md:h-[299px] object-cover rounded-md `}
             />
+            <span  className=" absolute text-orange-400 top-[230px] font-semibold right-[90px]"> {card.description}</span>
           </div>
         ))}
       </div>
