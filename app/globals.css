@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background:black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.hidescroll {
+  overflow: scroll; /* Enable scrolling */
+  scrollbar-width: thin; /* Firefox-specific */
+  scrollbar-color: transparent transparent; /* Firefox-specific */
+}
+
+.hidescroll::-webkit-scrollbar {
+  width: 0; /* Hide scrollbar for Webkit browsers (Chrome, Safari, Edge) */
+}
+
+.hidescroll::-webkit-scrollbar-thumb {
+  background: transparent; /* Make the thumb invisible */
+}
