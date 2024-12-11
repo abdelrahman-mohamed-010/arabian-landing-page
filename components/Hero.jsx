@@ -1,16 +1,11 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 const Hero = ({ lang }) => {
   return (
     <section className="text-white relative">
-      <Image
+      <img
         src="/images/Dunes-Anouncement_Thumbnail1 2.png"
-        alt="Thumbnail"
-        layout="responsive"
-        width={1920}
-        height={1080}
         className="w-full h-auto z-10"
       />
       <Link
