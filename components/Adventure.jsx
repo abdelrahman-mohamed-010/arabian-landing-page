@@ -16,7 +16,7 @@ const Adventure = ({ translations }) => {
       <div className="flex flex-col lg:flex-row justify-between  gap-12">
         <div className="w-full sm:w-1/2">
           <h1 className="text-3xl mb-12">{translations.adventure.title}</h1>
-          <p className="text-xl">{translations.adventure.description}</p>
+          <p className="text-xl text-justify">{translations.adventure.description}</p>
         </div>
 
         <div className="relative w-full gap-3">

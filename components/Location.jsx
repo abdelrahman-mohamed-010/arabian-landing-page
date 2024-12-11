@@ -3,7 +3,7 @@ import React from "react";
 const Location = ({ translations }) => {
   return (
     <section className="text-white px-4 md:px-28 pt-4">
-      <p className="text-sm md:text-[16px] mr-0 md:mr-40  ">
+      <p className="text-sm md:text-[16px] mr-0 md:mr-40  text-justify ">
         {translations.address.description}
       </p>
       <div className="flex flex-col lg:flex-row gap-2 mt-6 md:mt-12 max-lg:items-center max-md:gap-6">

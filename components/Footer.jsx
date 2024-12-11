@@ -9,7 +9,7 @@ const Footer = ({ translations }) => {
         />
 
         {/* Icons */}
-        <div className="flex space-x-6 items-center">
+        <div className="flex space-x-6 max-sm:space-x-3 items-center">
           <a
             href="https://www.facebook.com"
             target="_blank"
@@ -17,7 +17,7 @@ const Footer = ({ translations }) => {
           >
             <img
               src="/images/face.png"
-              className="w-8 h-auto z-20 object-contain  "
+              className="w-8 h-auto z-20 object-contain  max-sm:w-5 "
               alt="Facebook"
             />
           </a>
@@ -28,7 +28,7 @@ const Footer = ({ translations }) => {
           >
             <img
               src="/images/x.png"
-              className="w-11 h-auto z-20 object-contain "
+              className="w-11 h-auto z-20 object-contain max-sm:w-7 "
               alt="Twitter"
             />
           </a>
@@ -39,7 +39,7 @@ const Footer = ({ translations }) => {
           >
             <img
               src="/images/insta.png"
-              className="w-9 h-auto z-20 object-contain "
+              className="w-9 h-auto z-20 object-contain max-sm:w-5 "
               alt="Instagram"
             />
           </a>
@@ -52,7 +52,7 @@ const Footer = ({ translations }) => {
         />
       </div>
 
-      <div className=" flex gap-6 mt-12 mb-5 max-sm:text-xs max-sm:mt-6 ">
+      <div className=" flex gap-6 mt-12 mb-5 max-sm:text-xs max-sm:mt-6 max-sm:justify-between ">
         <a>{translations.footer.privacy_policy}</a>
         <a>{translations.footer.terms_conditions}</a>
       </div>

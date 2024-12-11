@@ -2,7 +2,7 @@ import React from "react";
 
 const Heritage = ({ translations }) => {
   return (
-    <div className="relative">
+    <div className="relative text-justify">
       <img
         src="/images/Screenshot 2024-12-09 at 08.22.02.png"
         className="w-full h-[60px] object-cover relative"

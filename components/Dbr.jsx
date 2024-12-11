@@ -9,7 +9,7 @@ const Dbr = ({ translations }) => {
         alt="Screenshot"
       />
       <section className="text-white px-4 lg:px-28 pb-20  overflow-hidden mt-16">
-        <div className="flex flex-col lg:flex-row-reverse justify-between gap-12">
+        <div className="flex flex-col lg:flex-row-reverse text-justify justify-between gap-12">
           <div className="w-full sm:w-1/2 ">
             <h1 className="text-3xl mb-12">{translations.dbr.title}</h1>
             <p className="text-xl">{translations.dbr.description}</p>
@@ -18,7 +18,7 @@ const Dbr = ({ translations }) => {
           <div className="relative w-full">
             <img
               src="/images/Artboard 14-8.png"
-              className="min-w-[200px] w-full object-cover  sm:min-w-[653.99px] h-[384px]  max-md:object-cover max-md:rounded-2xl "
+              className="min-w-[200px] w-full object-cover sm:min-w-[653.99px] h-[384px]  max-md:object-cover max-md:rounded-2xl "
               alt="Adventure Image"
             />
             <img
