@@ -4,7 +4,7 @@ const Heritage = ({ translations }) => {
   return (
     <div className="relative text-justify">
       <img
-        src="/images/Screenshot 2024-12-09 at 08.22.02.png"
+        src="/images/zigzag.png"
         className="w-full h-[60px] object-cover relative"
         alt="Screenshot"
       />
@@ -12,13 +12,13 @@ const Heritage = ({ translations }) => {
         <div className="flex flex-col md:flex-row items-start gap-6 md:gap-20">
           <div className="w-full relative order-2 md:order-1">
             <img
-              src="/images/Artboard 20-8.png"
+              src="/images/Artboard_20-8.png"
               className="w-full relative"
               alt="Screenshot"
             />
             <img
-              src="/images/Rectangle 464 (1).png"
-              className="absolute bottom-0 rounded-xl w-full z-20 object-contain md:max-w-none max-w-40"
+              src="/images/Rectangle_464_(1).png"
+              className="absolute bottom-0 rounded-xl w-full z-20 object-contain md:max-w-none max-w-40 max-md:hidden"
             />
           </div>
           <div className="text-[#FFFFFF] flex flex-col justify-end items-end w-full order-1 md:order-2">
@@ -30,13 +30,13 @@ const Heritage = ({ translations }) => {
             </p>
             <div className="w-full relative">
               <img
-                src="/images/hFlag 3 1.png"
+                src="/images/hFlag_3_1.png"
                 className="w-full relative"
                 alt="Screenshot"
               />
               <img
-                src="/images/Rectangle 464 (1).png"
-                className="absolute bottom-0 rounded-xl w-full z-20 object-contain md:max-w-none max-w-40"
+                src="/images/Rectangle_464_(1).png"
+                className="absolute bottom-0 rounded-xl w-full z-20 object-contain md:max-w-none max-sm:hidden max-w-40 max-md:hidden"
               />
             </div>
           </div>
@@ -51,13 +51,13 @@ const Heritage = ({ translations }) => {
             </p>
             <div className="w-full relative">
               <img
-                src="/images/hFlag 2 1 (1).png"
+                src="/images/hFlag.png"
                 className="w-full relative object-cover"
                 alt="Screenshot"
               />
               <img
-                src="/images/Rectangle 464 (1).png"
-                className="absolute bottom-0 rounded-xl w-full z-20 object-contain md:max-w-none max-w-40"
+                src="/images/Rectangle_464_(1).png"
+                className="absolute bottom-0 rounded-xl w-full z-20 object-contain md:max-w-none max-w-40 max-md:hidden"
               />
             </div>
           </div>
@@ -68,8 +68,8 @@ const Heritage = ({ translations }) => {
               alt="Screenshot"
             />
             <img
-              src="/images/Rectangle 464 (1).png"
-              className="absolute bottom-0 rounded-xl w-full z-20 object-contain md:max-w-none max-w-40"
+              src="/images/Rectangle_464_(1).png"
+              className="absolute bottom-0 rounded-xl w-full z-20 object-contain md:max-w-none max-w-40 max-md:hidden "
             />
           </div>
         </div>

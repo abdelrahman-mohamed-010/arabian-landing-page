@@ -4,7 +4,7 @@ const Footer = ({ translations }) => {
       <div className="flex justify-between items-center pb-7 border-b border-[#FFFFFF] ">
         {/* Left Image */}
         <img
-          src="/images/Artboard 2 copy 3@4x-8.png"
+          src="/images/Artboard12.png"
           className="w-48 h-auto z-20 object-contain max-md:w-40 max-sm:w-20"
         />
 
@@ -17,7 +17,7 @@ const Footer = ({ translations }) => {
           >
             <img
               src="/images/face.png"
-              className="w-8 h-auto z-20 object-contain  max-sm:w-5  max-sm:ml-3 "
+              className="w-8 h-auto z-20 object-contain  max-sm:w-5   max-md:ml-3 ml-4 "
               alt="Facebook"
             />
           </a>
@@ -47,7 +47,7 @@ const Footer = ({ translations }) => {
 
         {/* Right Image */}
         <img
-          src="/images/Artboard 6@4x-8.png"
+          src="/images/Artboard6@4x-8.png"
           className="w-40 h-auto z-20 object-contain max-md:w-40 max-sm:w-20"
         />
       </div>

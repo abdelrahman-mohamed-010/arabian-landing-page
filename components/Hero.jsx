@@ -5,7 +5,7 @@ const Hero = ({ lang }) => {
   return (
     <section className="text-white relative">
       <img
-        src="/images/Dunes-Anouncement_Thumbnail1 2.png"
+        src="/images/Dunes-Anouncement_Thumbnail12.png"
         className="w-full h-auto z-10"
       />
       <Link
@@ -24,19 +24,19 @@ const Hero = ({ lang }) => {
         {lang == "en" ? "العربيه" : "English"}
       </Link>
       <img
-        src="/images/Artboard 2 copy 3@4x-8.png"
+        src="/images/Artboard12.png"
         className={`absolute ${
           lang === "ar" ? " left-0" : " right-0"
         } top-0  w-80 max-sm:w-28 h-auto z-20 object-contain max-md:w-40`}
       />
       <img
-        src="/images/Artboard 6@4x-8.png"
+        src="/images/Artboard6@4x-8.png"
         className={`absolute top-0 ${
           lang === "ar" ? " right-0" : " left-0"
         } w-80 max-sm:w-28 h-auto z-20 object-contain max-md:w-40 `}
       />
       <img
-        src="/images/Rectangle 464 (1).png"
+        src="/images/Rectangle_464_(1).png"
         className="absolute bottom-0 w-full  z-20 object-contain "
       />
     </section>

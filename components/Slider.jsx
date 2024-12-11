@@ -47,7 +47,7 @@ const Slider = ({ items }) => {
           className="w-full h-[400px] md:h-[600px] object-cover object-center rounded-lg"
         />
         <img
-          src="/images/Rectangle 464 (1).png"
+          src="/images/Rectangle_464_(1).png"
           className="absolute -bottom-6 w-full z-20 object-contain"
           alt="Rectangle Overlay"
         />

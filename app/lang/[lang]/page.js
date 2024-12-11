@@ -71,7 +71,7 @@ const Page = async ({ params }) => {
       <Hero lang={lang} />
       <Location translations={translations} />
       <img
-        src="/images/Screenshot 2024-12-09 at 08.22.02.png"
+        src="/images/zigzag.png"
         className=" w-full h-[60px] object-cover mt-20"
       />
       <section className="text-white md:px-24 px-4 pt-20  relative">

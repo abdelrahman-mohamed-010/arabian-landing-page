@@ -4,7 +4,7 @@ const BookTicket = ({ translations }) => {
   return (
     <div className="relative">
       <img
-        src="/images/Screenshot 2024-12-09 at 08.22.02.png"
+        src="/images/zigzag.png"
         className="w-full h-[60px] object-cover relative"
         alt="Screenshot"
       />

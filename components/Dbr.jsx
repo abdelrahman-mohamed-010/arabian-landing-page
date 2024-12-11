@@ -4,7 +4,7 @@ const Dbr = ({ translations }) => {
   return (
     <div className=" relative">
       <img
-        src="/images/Screenshot 2024-12-09 at 08.22.02.png"
+        src="/images/zigzag.png"
         className="w-full h-[60px] object-cover absolute -top-24"
         alt="Screenshot"
       />
@@ -17,12 +17,12 @@ const Dbr = ({ translations }) => {
 
           <div className="relative w-full">
             <img
-              src="/images/Artboard 14-8.png"
+              src="/images/Artboard4.png"
               className="min-w-[200px] w-full object-cover sm:min-w-[653.99px] h-[384px]  max-md:object-cover max-md:rounded-2xl "
               alt="Adventure Image"
             />
             <img
-              src="/images/Rectangle 464 (1).png"
+              src="/images/Rectangle_464_(1).png"
               className="absolute -bottom-2 w-full max-lg:hidden z-20 object-contain"
               alt="Rectangle Overlay"
             />
@@ -38,14 +38,14 @@ const Dbr = ({ translations }) => {
           />{" "}
           <img src="/images/samt.png" className="w-full h-full" alt="Samt" />
           <img
-            src="/images/Rectangle 464 (1).png"
+            src="/images/Rectangle_464_(1).png"
             className="absolute -bottom-6 w-full z-20 object-contain"
             alt="Rectangle Overlay"
           />
         </div>
       </section>
       <img
-        src="/images/Screenshot 2024-12-09 at 08.22.02.png"
+        src="/images/zigzag.png"
         className="w-full h-[60px] object-cover  relative"
         alt="Screenshot"
       />

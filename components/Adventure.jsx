@@ -6,7 +6,7 @@ const Adventure = ({ translations }) => {
       <div className="flex justify-center pb-40">
         <div className="w-[441px] h-[198px] max-md:w-[212px] max-md:h-[100px]">
           <img
-            src="/images/Dunes-Anouncement-32 1.png"
+            src="/images/Dunes-Anouncement-323.png"
             className="w-full h-full mt-20"
             alt="Announcement"
           />
@@ -16,17 +16,19 @@ const Adventure = ({ translations }) => {
       <div className="flex flex-col lg:flex-row justify-between  gap-12">
         <div className="w-full sm:w-1/2">
           <h1 className="text-3xl mb-12">{translations.adventure.title}</h1>
-          <p className="text-xl text-justify">{translations.adventure.description}</p>
+          <p className="text-xl text-justify">
+            {translations.adventure.description}
+          </p>
         </div>
 
         <div className="relative w-full gap-3">
           <img
-            src="/images/Artboard 14-8.png"
+            src="/images/Artboard4.png"
             className="min-w-[100px] w-full sm:min-w-[653.99px]  h-[394px]"
             alt="Adventure Image"
           />
           <img
-            src="/images/Rectangle 464 (1).png"
+            src="/images/Rectangle_464_(1).png"
             className="absolute -bottom-6 mr-1 w-full z-20 object-contain max-md:hidden"
             alt="Rectangle Overlay"
           />
@@ -38,7 +40,7 @@ const Adventure = ({ translations }) => {
         <img src="/images/arrow.png" className="w-full h-full" alt="Arrow" />
         <img src="/images/buggy.png" className="w-full h-full" alt="Buggy" />
         <img
-          src="/images/Rectangle 464 (1).png"
+          src="/images/Rectangle_464_(1).png"
           className="absolute -bottom-6 w-full z-20 object-contain"
           alt="Rectangle Overlay"
         />
