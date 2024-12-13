@@ -10,7 +10,7 @@ const BookTicket = ({ translations }) => {
       />
       <section className="text-white bg-[#544229cb] px-4 md:px-28 pt-10 md:pt-20 pb-10 md:pb-16 z-20 relative -mt-7">
         <div>
-          <h1 className=" text-2xl mb-6"> {translations.tickets.title}</h1>
+          <h1 className=" text-2xl mb-6 max-sm:text-xl"> {translations.tickets.title}</h1>
           <div className=" flex gap-4 flex-wrap">
             <div>
               <img
@@ -18,7 +18,7 @@ const BookTicket = ({ translations }) => {
                 className={`w-full h-[200px] cursor-pointer md:h-[299px] object-cover rounded-md `}
                 alt="Screenshot"
               />
-              <div className=" text-xl mt-3">
+              <div className=" text-xl mt-3 max-sm:text-lg">
                 {translations.tickets.category.weekly}
               </div>
             </div>
@@ -28,7 +28,7 @@ const BookTicket = ({ translations }) => {
                 className={`w-full cursor-pointer h-[200px] md:h-[299px] object-cover rounded-md `}
                 alt="Screenshot"
               />
-              <div className=" text-xl mt-3">
+              <div className=" text-xl mt-3 max-sm:text-lg">
                 {translations.tickets.category.family}
               </div>
             </div>{" "}
@@ -38,14 +38,14 @@ const BookTicket = ({ translations }) => {
                 className={`w-full cursor-pointer h-[200px] md:h-[299px] object-cover rounded-md `}
                 alt="Screenshot"
               />
-              <div className=" text-xl mt-3">
+              <div className=" text-xl mt-3 max-sm:text-lg">
                 {translations.tickets.category.oneday}
               </div>
             </div>
           </div>
         </div>
         <div className=" mt-28">
-          <h1 className=" text-2xl mb-6"> {translations.activities.title}</h1>
+          <h1 className=" text-2xl mb-6 max-sm:text-xl"> {translations.activities.title}</h1>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-4">
             <div>
               <img
