@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = ({ lang }) => {
   return (
-    <section className="text-white relative">
+    <section className="text-white relative ">
       <img
         src="/images/Dunes-Anouncement_Thumbnail12.png"
         className="w-full h-auto z-10"
