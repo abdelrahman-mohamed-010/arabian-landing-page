@@ -14,7 +14,7 @@ const BookTicket = ({ translations }) => {
             {" "}
             {translations.tickets.title}
           </h1>
-          <div className=" flex gap-4 flex-wrap">
+          <div className=" flex gap-4 flex-wrap max-sm:grid grid-cols-3">
             <div>
               <img
                 src="/images/women.png"
