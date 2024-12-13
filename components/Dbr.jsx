@@ -11,7 +11,7 @@ const Dbr = ({ translations }) => {
       <section className="text-white px-4 lg:px-28 pb-20 overflow-hidden mt-16">
         <div className="flex flex-col lg:flex-row-reverse justify-between  gap-12 ">
           <div className="w-full sm:w-1/2">
-            <h1 dir="rtl" className="text-3xl mb-12 max-md:mb-6 max-md:text-lg">
+            <h1 dir="rtl" className="text-3xl mb-12 max-md:mb-6 max-md:text-lg max-sm:font-semibold max-sm:text-xl">
               {translations.dbr.title}
             </h1>
             <p className="text-base text-justify max-md:text-base ">

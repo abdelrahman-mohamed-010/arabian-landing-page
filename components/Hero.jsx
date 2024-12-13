@@ -8,6 +8,7 @@ const Hero = ({ lang }) => {
         src="/images/Dunes-Anouncement_Thumbnail12.png"
         className="w-full h-auto z-10"
       />
+
       <Link
         href={`/lang/${lang == "en" ? "ar" : "en"}`}
         className={`absolute top-12 sm:top-20 md:top-32 lg:top-32 
@@ -35,6 +36,7 @@ const Hero = ({ lang }) => {
           lang === "ar" ? " right-0" : " left-0"
         } w-80 max-sm:w-28 h-auto z-20 object-contain max-md:w-40 `}
       />
+
       <img
         src="/images/Rectangle_464_(1).png"
         className="absolute bottom-0 w-full  z-20 object-contain "

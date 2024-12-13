@@ -29,7 +29,7 @@ const Heritage = ({ translations }) => {
               {translations.heritage.description1}
             </p>
             <div className=" max-md:flex w-full  max-md:flex-row-reverse  max-md:gap-8 ">
-              <div className="w-full relative  max-md:mt-24">
+              <div className="w-full relative  max-md:mt-16">
                 <img
                   src="/images/hFlag_3_1.png"
                   className="w-full relative"
@@ -75,7 +75,7 @@ const Heritage = ({ translations }) => {
               {translations.heritage.description2}
             </p>
             <div className=" max-md:flex  max-md:flex-row  max-md:gap-8 ">
-              <div className="w-full relative  max-md:mt-24">
+              <div className="w-full relative  max-md:mt-16">
                 <img
                   src="/images/hFlag.png"
                   className="w-full relative  max-sm:h-36 max-md:h-44  lg:h-96"

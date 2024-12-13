@@ -67,15 +67,17 @@ const Page = async ({ params }) => {
   ];
 
   return (
-    <>
+    <div className="">
       <Hero lang={lang} />
       <Location translations={translations} />
       <img
         src="/images/zigzag.png"
-        className=" w-full h-[60px] object-cover mt-20"
+        className=" w-full h-[60px] object-cover mt-20 "
       />
       <section className="text-white md:px-24 px-4 pt-20  relative">
-        <h1 className="text-[28px] max-sm:text-lg">{translations.explore.explore}</h1>
+        <h1 className="text-[28px] max-sm:text-lg">
+          {translations.explore.explore}
+        </h1>
         <ScrollableSection items={dummyData} translations={translations} />
       </section>
       <Adventure translations={translations} />
@@ -86,7 +88,7 @@ const Page = async ({ params }) => {
       <ContactForm translations={translations} />
       <Sponsers />
       <Footer translations={translations} />
-    </>
+    </div>
   );
 };
 
