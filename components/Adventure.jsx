@@ -14,7 +14,7 @@ const Adventure = ({ translations }) => {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row justify-between  gap-12 max-md:items-end">
+      <div className="flex flex-col lg:flex-row justify-between  gap-12 max-sm:items-end">
         <div className="w-full sm:w-1/2">
           <h1 className="text-3xl mb-12 max-md:mb-6 max-md:text-lg">
             {translations.adventure.title}
