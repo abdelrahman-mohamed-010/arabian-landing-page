@@ -8,7 +8,7 @@ const Heritage = ({ translations }) => {
         className="w-full h-[60px] object-cover relative z-50"
         alt="Screenshot"
       />
-      <section className="text-white bg-[#544229cb] px-4 md:px-28 pt-10 md:pt-20 pb-10 md:pb-16 z-20 relative -mt-7">
+      <section className="text-white bg-[#544229cb] px-4 md:px-28 2xl:px-48 pt-10 md:pt-20 pb-10 md:pb-16 z-20 relative -mt-7">
         <div className="flex flex-col md:flex-row items-start gap-6 md:gap-20">
           <div className="w-full relative order-2 md:order-1 max-md:hidden">
             <img

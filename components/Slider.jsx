@@ -38,7 +38,7 @@ const Slider = ({ items }) => {
   };
 
   return (
-    <section className="text-white px-4 md:px-28 pt-10 pb-20 md:pt-20 relative">
+    <section className="text-white px-4 md:px-28 2xl:px-48 pt-10 pb-20 md:pt-20 relative">
       {/* Shower Image */}
       <div className="w-full mb-10 relative">
         <img

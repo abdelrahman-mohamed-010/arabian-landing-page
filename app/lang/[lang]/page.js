@@ -74,7 +74,7 @@ const Page = async ({ params }) => {
         src="/images/zigzag.png"
         className=" w-full h-[60px] object-cover mt-20 "
       />
-      <section className="text-white md:px-24 px-4 pt-20  relative">
+      <section className="text-white md:px-24 px-4 pt-20 2xl:px-48  relative">
         <h1 className="text-[28px] max-sm:text-lg">
           {translations.explore.explore}
         </h1>
