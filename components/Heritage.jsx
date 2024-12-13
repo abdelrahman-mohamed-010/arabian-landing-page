@@ -28,7 +28,7 @@ const Heritage = ({ translations }) => {
             <p className="mb-6 md:mb-12 max-sm:text-sm">
               {translations.heritage.description1}
             </p>
-            <div className=" max-md:flex  max-md:flex-row-reverse  max-md:gap-8 ">
+            <div className=" max-md:flex w-full  max-md:flex-row-reverse  max-md:gap-8 ">
               <div className="w-full relative  max-md:mt-24">
                 <img
                   src="/images/hFlag_3_1.png"
