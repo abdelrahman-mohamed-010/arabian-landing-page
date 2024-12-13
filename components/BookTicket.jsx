@@ -10,7 +10,7 @@ const BookTicket = ({ translations }) => {
       />
       <section className="text-white bg-[#544229cb] px-4 md:px-28 pt-10 md:pt-20 pb-16 md:pb-16 z-20 relative -mt-7">
         <div>
-          <h1 className=" text-2xl mb-6 max-sm:text-xl">
+          <h1 className=" text-2xl mb-6 max-sm:text-lg">
             {" "}
             {translations.tickets.title}
           </h1>
@@ -21,7 +21,7 @@ const BookTicket = ({ translations }) => {
                 className={`w-full h-[200px] cursor-pointer md:h-[299px] object-cover rounded-md `}
                 alt="Screenshot"
               />
-              <div className=" text-xl mt-3 max-sm:text-lg">
+              <div className=" text-xl mt-3 max-sm:text-base">
                 {translations.tickets.category.weekly}
               </div>
             </div>
@@ -31,7 +31,7 @@ const BookTicket = ({ translations }) => {
                 className={`w-full cursor-pointer h-[200px] md:h-[299px] object-cover rounded-md `}
                 alt="Screenshot"
               />
-              <div className=" text-xl mt-3 max-sm:text-lg">
+              <div className=" text-xl mt-3 max-sm:text-base">
                 {translations.tickets.category.family}
               </div>
             </div>{" "}
@@ -41,14 +41,14 @@ const BookTicket = ({ translations }) => {
                 className={`w-full cursor-pointer h-[200px] md:h-[299px] object-cover rounded-md `}
                 alt="Screenshot"
               />
-              <div className=" text-xl mt-3 max-sm:text-lg">
+              <div className=" text-xl mt-3 max-sm:text-base">
                 {translations.tickets.category.oneday}
               </div>
             </div>
           </div>
         </div>
         <div className=" mt-28">
-          <h1 className=" text-2xl mb-6 max-sm:text-xl">
+          <h1 className=" text-2xl mb-6 max-sm:text-lg">
             {" "}
             {translations.activities.title}
           </h1>

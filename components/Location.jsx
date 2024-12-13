@@ -77,7 +77,7 @@ const Location = ({ translations }) => {
         </div>
         <div
           dir="ltr"
-          className="w-[80%] md:w-[279px] h-[165px] md:h-[194px] z-20 p-5 pl-7 bg-[#242424] rounded-2xl max-sm:w-[220px]"
+          className="w-[80%] md:w-[279px] h-[165px] md:h-[194px] z-20 p-5 pl-7 bg-[#242424] rounded-2xl max-sm:w-[82.5%]"
         >
           <Clock3 className="w-12 h-12 mb-6 max-sm:w-8 max-sm:h-8" />
           <span className="block text-xl mb-1 max-sm:text-base">{schedule.date} - </span>
