@@ -8,7 +8,7 @@ const Dbr = ({ translations }) => {
         className="w-full h-[60px] object-cover absolute -top-24 rotate-180 z-50"
         alt="Screenshot"
       />{" "}
-      <section className="text-white px-4 lg:px-28 pb-20 overflow-hidden mt-16 2xl:px-48">
+      <section className="text-white px-4 lg:px-28 pb-20 overflow-hidden mt-16 2xl:px-40">
         <div className="flex flex-col lg:flex-row-reverse justify-between  gap-12 ">
           <div className="w-full sm:w-1/2">
             <h1 dir="rtl" className="text-3xl mb-12 max-md:mb-6 max-md:text-lg max-sm:font-semibold max-sm:text-xl">

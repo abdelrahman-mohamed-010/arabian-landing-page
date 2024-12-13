@@ -31,7 +31,7 @@ const Hero = ({ lang }) => {
       <img
         src="/images/Artboard12.png"
         className={`absolute ${
-          lang === "ar" ? " left-0 2xl:left-36" : " right-0 2xl:right-36"
+          lang === "ar" ? " left-0 2xl:left-36" : " right-0 2xl:right-36 "
         } top-0   w-80 max-sm:w-28 h-auto z-20 object-contain max-md:w-40`}
       />
       <img

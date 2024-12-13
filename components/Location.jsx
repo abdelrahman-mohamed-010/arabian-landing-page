@@ -65,7 +65,7 @@ const Location = ({ translations }) => {
   }, []);
 
   return (
-    <section className="text-white px-4 md:px-28 2xl:px-48 pt-4">
+    <section className="text-white px-4 md:px-28 2xl:px-40 pt-4">
       <p className=" text-justify max-sm:text-sm">
         {translations.address.description}
       </p>
