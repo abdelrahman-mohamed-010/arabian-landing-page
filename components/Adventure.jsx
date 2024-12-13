@@ -19,7 +19,7 @@ const Adventure = ({ translations }) => {
           <h1 className="text-3xl mb-12 max-md:mb-6 max-md:text-lg">
             {translations.adventure.title}
           </h1>
-          <p className="text-xl text-justify max-md:text-base ">
+          <p className="text-base text-justify max-md:text-base ">
             {translations.adventure.description}
           </p>
         </div>

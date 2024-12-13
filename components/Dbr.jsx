@@ -4,8 +4,8 @@ const Dbr = ({ translations }) => {
   return (
     <div className=" relative">
       <img
-        src="/images/zigzag.png"
-        className="w-full h-[60px] object-cover absolute -top-24"
+        src="/images/print.png"
+        className="w-full h-[60px] object-cover absolute -top-24 rotate-180 z-50"
         alt="Screenshot"
       />{" "}
       <section className="text-white px-4 lg:px-28 pb-20 overflow-hidden mt-16">
@@ -14,7 +14,7 @@ const Dbr = ({ translations }) => {
             <h1 dir="rtl" className="text-3xl mb-12 max-md:mb-6 max-md:text-lg">
               {translations.dbr.title}
             </h1>
-            <p className="text-xl text-justify max-md:text-base ">
+            <p className="text-base text-justify max-md:text-base ">
               {translations.dbr.description}
             </p>
           </div>

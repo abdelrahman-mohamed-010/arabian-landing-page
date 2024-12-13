@@ -4,13 +4,16 @@ const BookTicket = ({ translations }) => {
   return (
     <div className="relative">
       <img
-        src="/images/zigzag.png"
-        className="w-full h-[60px] object-cover relative"
+        src="/images/print.png"
+        className="w-full h-[60px] object-cover relative z-50"
         alt="Screenshot"
       />
-      <section className="text-white bg-[#544229cb] px-4 md:px-28 pt-10 md:pt-20 pb-10 md:pb-16 z-20 relative -mt-7">
+      <section className="text-white bg-[#544229cb] px-4 md:px-28 pt-10 md:pt-20 pb-16 md:pb-16 z-20 relative -mt-7">
         <div>
-          <h1 className=" text-2xl mb-6 max-sm:text-xl"> {translations.tickets.title}</h1>
+          <h1 className=" text-2xl mb-6 max-sm:text-xl">
+            {" "}
+            {translations.tickets.title}
+          </h1>
           <div className=" flex gap-4 flex-wrap">
             <div>
               <img
@@ -45,7 +48,10 @@ const BookTicket = ({ translations }) => {
           </div>
         </div>
         <div className=" mt-28">
-          <h1 className=" text-2xl mb-6 max-sm:text-xl"> {translations.activities.title}</h1>
+          <h1 className=" text-2xl mb-6 max-sm:text-xl">
+            {" "}
+            {translations.activities.title}
+          </h1>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-4">
             <div>
               <img
@@ -85,6 +91,11 @@ const BookTicket = ({ translations }) => {
           </div>
         </div>
       </section>
+      <img
+        src="/images/print.png"
+        className="w-full h-[60px] object-cover relative -top-12 rotate-180  z-50"
+        alt="Screenshot"
+      />
     </div>
   );
 };

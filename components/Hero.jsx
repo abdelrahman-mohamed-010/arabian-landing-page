@@ -13,12 +13,12 @@ const Hero = ({ lang }) => {
         className={`absolute top-12 sm:top-20 md:top-32 lg:top-32 
               ${lang === "ar" ? "right-4 sm:right-6" : "left-4 sm:left-6"} 
               z-30 
-              text-white font-semibold bg-blue-500 rounded-lg 
+              text-white font-semibold bg-black rounded-lg 
               px-3 sm:px-4 md:px-5 py-2 sm:py-2.5 md:py-3 
               text-xs sm:text-sm md:text-base 
               w-fit cursor-pointer 
               transition-all duration-300 
-              hover:bg-blue-600 
+              hover:bg-gray-900 
               active:scale-95`}
       >
         {lang == "en" ? "العربيه" : "English"}
