@@ -1,5 +1,3 @@
-"use client"
-
 import React, { useState } from "react";
 
 const ContactForm = ({ translations }) => {
@@ -9,7 +7,7 @@ const ContactForm = ({ translations }) => {
     email: "",
     message: "",
   });
-  const [successMessage, setSuccessMessage] = useState("");
+  const [successMessage, setSuccessMessage] = useState(""); // Success message state
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -47,7 +45,10 @@ const ContactForm = ({ translations }) => {
         const result = await response.json();
         console.log("Form submitted successfully:", result);
 
-        setSuccessMessage(translations.form.success_message); // Set success message
+        // Set success message
+        setSuccessMessage(translations.form.success_message);
+
+        // Reset the form data
         setFormData({
           name: "",
           phone: "",
@@ -55,7 +56,7 @@ const ContactForm = ({ translations }) => {
           message: "",
         });
 
-        // Hide success message after 5 seconds
+        // Hide the success message after 5 seconds
         setTimeout(() => {
           setSuccessMessage("");
         }, 5000);
@@ -76,6 +77,7 @@ const ContactForm = ({ translations }) => {
         {translations.form.desc}
       </h2>
 
+      {/* Conditional rendering of success message */}
       {successMessage && (
         <div className="text-center mb-6 p-3 bg-green-500 text-white rounded-md">
           {successMessage}
