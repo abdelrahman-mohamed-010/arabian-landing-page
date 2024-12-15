@@ -1,4 +1,3 @@
-"use client";
 import React, { useState } from "react";
 
 const ContactForm = ({ translations }) => {
@@ -17,10 +16,49 @@ const ContactForm = ({ translations }) => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Form Data:", formData);
-    // Add your form submission logic here (e.g., API call).
+
+    // Prepare the data to send to the API
+    const payload = {
+      data: {
+        Name: formData.name,
+        Phone: formData.phone,
+        Email: formData.email,
+        Message: formData.message,
+      },
+    };
+
+    try {
+      const response = await fetch(
+        "https://dunesofarabia.com/api/contact-entries",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(payload),
+        }
+      );
+
+      if (response.ok) {
+        const result = await response.json();
+        console.log("Form submitted successfully:", result);
+        // Optionally, reset form fields or show a success message
+        setFormData({
+          name: "",
+          phone: "",
+          email: "",
+          message: "",
+        });
+      } else {
+        console.error("Error submitting form:", response.statusText);
+        // Optionally, handle errors (e.g., show an error message)
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      // Optionally, handle fetch errors (e.g., show an error message)
+    }
   };
 
   return (
