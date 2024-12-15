@@ -48,7 +48,7 @@ const ContactForm = ({ translations }) => {
         console.log("Form submitted successfully:", result);
 
         // Set success message
-        setSuccessMessage(translations.form.success_message);
+        setSuccessMessage("data sent successfuly");
 
         // Reset the form data
         setFormData({
