@@ -9,6 +9,7 @@ const ContactForm = ({ translations }) => {
     email: "",
     message: "",
   });
+  const [successMessage, setSuccessMessage] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -21,7 +22,6 @@ const ContactForm = ({ translations }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Prepare the data to send to the API
     const payload = {
       data: {
         Name: formData.name,
@@ -46,20 +46,24 @@ const ContactForm = ({ translations }) => {
       if (response.ok) {
         const result = await response.json();
         console.log("Form submitted successfully:", result);
-        // Optionally, reset form fields or show a success message
+
+        setSuccessMessage(translations.form.success_message); // Set success message
         setFormData({
           name: "",
           phone: "",
           email: "",
           message: "",
         });
+
+        // Hide success message after 5 seconds
+        setTimeout(() => {
+          setSuccessMessage("");
+        }, 5000);
       } else {
         console.error("Error submitting form:", response.statusText);
-        // Optionally, handle errors (e.g., show an error message)
       }
     } catch (error) {
       console.error("Error submitting form:", error);
-      // Optionally, handle fetch errors (e.g., show an error message)
     }
   };
 
@@ -71,6 +75,12 @@ const ContactForm = ({ translations }) => {
       <h2 className="text-base md:text-lg mb-6 md:mb-8 text-center px-4">
         {translations.form.desc}
       </h2>
+
+      {successMessage && (
+        <div className="text-center mb-6 p-3 bg-green-500 text-white rounded-md">
+          {successMessage}
+        </div>
+      )}
 
       <form
         className="w-full md:w-auto p-4 md:p-8 rounded-lg shadow-lg flex flex-col gap-4 md:gap-5 justify-center items-center"
