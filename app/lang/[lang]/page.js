@@ -84,7 +84,7 @@ const Page = async ({ params }) => {
       <Heritage translations={translations} />
       <Dbr translations={translations} />
       <Slider items={dummyData} />
-      <Camping />
+      <Camping translations={translations} />
       <BookTicket translations={translations} />
       <ContactForm translations={translations} />
       <Sponsers />

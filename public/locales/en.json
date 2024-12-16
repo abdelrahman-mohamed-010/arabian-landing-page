@@ -46,5 +46,10 @@
   "footer": {
     "privacy_policy": "PRIVACY POLICY",
     "terms_conditions": "TERMS & CONDITIONS"
+  },
+  "camp": {
+    "title": "Camping & Domes",
+    "desc": "Listen to the hushed sounds of the dunes in the Dome camp  area, as you spend a day in nature’s calm embrace, and end your night under the desert’s star-studded skies.",
+    "btn": "Book Your Dome"
   }
 }
