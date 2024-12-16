@@ -12,7 +12,7 @@ import Sponsers from "@/components/Sponsers";
 import React from "react";
 import arLocales from "../../../public/locales/ar.json";
 import enLocales from "../../../public/locales/en.json";
-
+import Camping from "@/components/Camping";
 
 const Page = async ({ params }) => {
   const lang = (await params).lang;
@@ -84,6 +84,7 @@ const Page = async ({ params }) => {
       <Heritage translations={translations} />
       <Dbr translations={translations} />
       <Slider items={dummyData} />
+      <Camping />
       <BookTicket translations={translations} />
       <ContactForm translations={translations} />
       <Sponsers />
